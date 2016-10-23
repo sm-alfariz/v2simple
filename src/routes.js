@@ -1,8 +1,13 @@
 export default [
   {
     path: '/',
-    name: 'front-page',
+    name: 'home',
     component: require('components/Hello')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: require('components/Login')
   },
   {
     path: '*',
